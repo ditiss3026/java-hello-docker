@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM eclipse-temurin:8-jdk
 COPY Hello.java /app/
 WORKDIR /app
 RUN javac Hello.java
