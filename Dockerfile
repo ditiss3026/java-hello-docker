@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:8-jdk-alpine
 COPY Hello.java /app/
 WORKDIR /app
 RUN javac Hello.java
